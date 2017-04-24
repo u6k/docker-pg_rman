@@ -4,7 +4,7 @@ Dockerfile for [pg_rman](http://ossc-db.github.io/pg_rman/)
 ⚠ Before You Pull
 ------------------
 
-** Use appropriate tag for corresponding postgresql version. **
+**Use appropriate tag for corresponding postgresql version.**
 
 For example:
 
