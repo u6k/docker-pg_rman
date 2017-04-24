@@ -2,7 +2,7 @@ FROM alpine:latest
 LABEL maintainer "mecab <mecab@misosi.ru>"
 
 ARG RMAN_VER=1.3.4
-ARG PG_VER=96
+ARG PG_VER=95
 ENV PACKAGE_URL https://github.com/ossc-db/pg_rman/releases/download/v${RMAN_VER}/pg_rman-${RMAN_VER}-pg${PG_VER}.tar.gz
 
 ENV PGDATA /pg_data
