@@ -1,6 +1,8 @@
 Dockerfile for [pg_rman](http://ossc-db.github.io/pg_rman/)
 ===========================================================
 
+[![Build Status](https://travis-ci.org/u6k/docker-pg_rman.svg?branch=master)](https://travis-ci.org/u6k/docker-pg_rman)
+
 ⚠ Before You Pull
 ------------------
 
