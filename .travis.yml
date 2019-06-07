@@ -7,7 +7,7 @@ addons:
 
 script:
   - docker build -t u6kapps/docker-pg_rman .
-  - docker run --rm u6kapps/docker-pg_rman --version
+  - docker run --rm u6kapps/docker-pg_rman --version || true
 
 after_success:
   - if [ -n "$TRAVIS_TAG" ]; then
